@@ -176,6 +176,18 @@ namespace prototype.UserControls
 
         private void btnDeleteAll_Click(object sender, EventArgs e)
         {
+            txtFirstname.Clear();
+            txtLastName.Clear();
+            txtMiddleName.Clear();
+            txtProgram.Clear();
+            txtCopro.Clear();
+            txtAnimul.Clear();
+            txtDistru.Clear();
+            txtMath.Clear();
+            txtPurcom.Clear();
+            txtArtapp.Clear();
+            txtNstp.Clear();
+            txtPafit.Clear();
             listStudent.Items.Clear();
         }
     }
