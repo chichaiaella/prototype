@@ -30,16 +30,16 @@ namespace prototype
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUsername.Text == "admin" && txtPassword.Text == "admin")
-            {
-                LandingPage landingPage = new LandingPage();
-                landingPage.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Invalid username or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+               if(txtUsername.Text == "admin" && txtPassword.Text == "admin")
+               {
+                   LandingPage landingPage = new LandingPage();
+                   landingPage.Show();
+                   this.Hide();
+               }
+               else
+               {
+                   MessageBox.Show("Invalid username or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               }
 
         }
 

@@ -50,7 +50,7 @@ namespace prototype.UserControls
                 MessageBox.Show("Please fill in all fields.");
             }
             else { 
-                var average = (Convert.ToSingle(txtCopro.Text) + Convert.ToSingle(txtAnimul.Text) + Convert.ToSingle(txtDistru.Text) +
+                var average = (Convert.ToDouble(txtCopro.Text) + Convert.ToDouble(txtAnimul.Text) + Convert.ToSingle(txtDistru.Text) +
                     Convert.ToSingle(txtMath.Text) + Convert.ToSingle(txtPurcom.Text) + Convert.ToSingle(txtArtapp.Text) +
                     Convert.ToSingle(txtNstp.Text) + Convert.ToSingle(txtPafit.Text)) / 8;
                 if (average <= 1)
@@ -126,9 +126,9 @@ namespace prototype.UserControls
             {
                 if (listStudent.SelectedItems.Count > 0)
                 {
-                    var average = (Convert.ToDouble(txtCopro.Text) + Convert.ToDouble(txtAnimul.Text) + Convert.ToDouble(txtDistru.Text) +
-                    Convert.ToDouble(txtMath.Text) + Convert.ToDouble(txtPurcom.Text) + Convert.ToDouble(txtArtapp.Text) +
-                    Convert.ToDouble(txtNstp.Text) + Convert.ToDouble(txtPafit.Text)) / 8;
+                    var average = (Convert.ToSingle(txtCopro.Text) + Convert.ToSingle(txtAnimul.Text) + Convert.ToSingle(txtDistru.Text) +
+                    Convert.ToSingle(txtMath.Text) + Convert.ToSingle(txtPurcom.Text) + Convert.ToSingle(txtArtapp.Text) +
+                    Convert.ToSingle(txtNstp.Text) + Convert.ToSingle(txtPafit.Text)) / 8;
                     var averageString = Convert.ToString(average);
                     listStudent.SelectedItems[0].SubItems[0].Text = txtFirstname.Text;
                     listStudent.SelectedItems[0].SubItems[1].Text = txtLastName.Text;
@@ -142,7 +142,7 @@ namespace prototype.UserControls
                     listStudent.SelectedItems[0].SubItems[9].Text = txtArtapp.Text;
                     listStudent.SelectedItems[0].SubItems[10].Text = txtNstp.Text;
                     listStudent.SelectedItems[0].SubItems[11].Text = txtPafit.Text;
-                    listStudent.SelectedItems[0].SubItems[8].Text = averageString;
+                    listStudent.SelectedItems[0].SubItems[12].Text = averageString;
                 }
             }
         }
@@ -168,8 +168,21 @@ namespace prototype.UserControls
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            txtFirstname.Clear();
+            txtLastName.Clear();
+            txtMiddleName.Clear();
+            txtProgram.Clear();
+            txtCopro.Clear();
+            txtAnimul.Clear();
+            txtDistru.Clear();
+            txtMath.Clear();
+            txtPurcom.Clear();
+            txtArtapp.Clear();
+            txtNstp.Clear();
+            txtPafit.Clear();
             if (listStudent.SelectedItems.Count > 0)
             {
+                
                 listStudent.Items.Remove(listStudent.SelectedItems[0]);
             }
         }
