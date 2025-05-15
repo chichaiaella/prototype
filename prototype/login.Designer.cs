@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlLogin = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picBackground = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.chkShow = new System.Windows.Forms.CheckBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -38,13 +38,13 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUsername = new System.Windows.Forms.Label();
             this.pnlLogin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBackground)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlLogin
             // 
             this.pnlLogin.BackColor = System.Drawing.Color.Transparent;
-            this.pnlLogin.Controls.Add(this.pictureBox1);
+            this.pnlLogin.Controls.Add(this.picBackground);
             this.pnlLogin.Controls.Add(this.btnLogin);
             this.pnlLogin.Controls.Add(this.chkShow);
             this.pnlLogin.Controls.Add(this.txtPassword);
@@ -56,17 +56,17 @@
             this.pnlLogin.Size = new System.Drawing.Size(266, 413);
             this.pnlLogin.TabIndex = 0;
             // 
-            // pictureBox1
+            // picBackground
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(46, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(179, 104);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.picBackground.BackColor = System.Drawing.Color.Transparent;
+            this.picBackground.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBackground.Image = ((System.Drawing.Image)(resources.GetObject("picBackground.Image")));
+            this.picBackground.Location = new System.Drawing.Point(46, 3);
+            this.picBackground.Name = "picBackground";
+            this.picBackground.Size = new System.Drawing.Size(179, 104);
+            this.picBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBackground.TabIndex = 7;
+            this.picBackground.TabStop = false;
             // 
             // btnLogin
             // 
@@ -150,7 +150,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBackground)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -164,7 +164,7 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picBackground;
     }
 }
 

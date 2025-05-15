@@ -60,7 +60,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnDeleteAll = new System.Windows.Forms.Button();
-            this.listStudent = new System.Windows.Forms.ListView();
+            this.lvwStudent = new System.Windows.Forms.ListView();
             this.pnlCrudButton.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -406,24 +406,24 @@
             this.btnDeleteAll.UseVisualStyleBackColor = true;
             this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
-            // listStudent
+            // lvwStudent
             // 
-            this.listStudent.HideSelection = false;
-            this.listStudent.Location = new System.Drawing.Point(285, 9);
-            this.listStudent.Name = "listStudent";
-            this.listStudent.Size = new System.Drawing.Size(583, 303);
-            this.listStudent.TabIndex = 59;
-            this.listStudent.UseCompatibleStateImageBehavior = false;
-            this.listStudent.View = System.Windows.Forms.View.Details;
-            this.listStudent.SelectedIndexChanged += new System.EventHandler(this.listStudent_SelectedIndexChanged);
-            this.listStudent.Click += new System.EventHandler(this.listStudent_Click);
+            this.lvwStudent.HideSelection = false;
+            this.lvwStudent.Location = new System.Drawing.Point(285, 9);
+            this.lvwStudent.Name = "lvwStudent";
+            this.lvwStudent.Size = new System.Drawing.Size(583, 303);
+            this.lvwStudent.TabIndex = 59;
+            this.lvwStudent.UseCompatibleStateImageBehavior = false;
+            this.lvwStudent.View = System.Windows.Forms.View.Details;
+            this.lvwStudent.SelectedIndexChanged += new System.EventHandler(this.listStudent_SelectedIndexChanged);
+            this.lvwStudent.Click += new System.EventHandler(this.listStudent_Click);
             // 
             // UCGrades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.Controls.Add(this.listStudent);
+            this.Controls.Add(this.lvwStudent);
             this.Controls.Add(this.pnlCrudButton);
             this.Controls.Add(this.lblGrades);
             this.Controls.Add(this.lblSubjects);
@@ -494,6 +494,6 @@
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.ListView listStudent;
+        private System.Windows.Forms.ListView lvwStudent;
     }
 }

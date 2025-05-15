@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblAbout = new System.Windows.Forms.Label();
-            this.lblAboutDetails = new System.Windows.Forms.Label();
-            this.lblPurposeDetails = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblFeatDetails = new System.Windows.Forms.Label();
-            this.lblNav = new System.Windows.Forms.Label();
             this.lblNavDesc = new System.Windows.Forms.Label();
+            this.lblNav = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblFeatDetails = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblPurposeDetails = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblAboutDetails = new System.Windows.Forms.Label();
+            this.lblAbout = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlSupport = new System.Windows.Forms.Panel();
             this.lblConSupDetails = new System.Windows.Forms.Label();
             this.lblContact = new System.Windows.Forms.Label();
@@ -61,6 +61,30 @@
             this.panel4.Size = new System.Drawing.Size(798, 190);
             this.panel4.TabIndex = 3;
             // 
+            // lblNavDesc
+            // 
+            this.lblNavDesc.AccessibleName = "lblAbout";
+            this.lblNavDesc.AutoSize = true;
+            this.lblNavDesc.BackColor = System.Drawing.Color.Transparent;
+            this.lblNavDesc.Font = new System.Drawing.Font("Sans Serif Collection", 9.749998F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNavDesc.Location = new System.Drawing.Point(62, 67);
+            this.lblNavDesc.Margin = new System.Windows.Forms.Padding(0);
+            this.lblNavDesc.Name = "lblNavDesc";
+            this.lblNavDesc.Size = new System.Drawing.Size(87, 44);
+            this.lblNavDesc.TabIndex = 10;
+            this.lblNavDesc.Text = "Description";
+            // 
+            // lblNav
+            // 
+            this.lblNav.AutoSize = true;
+            this.lblNav.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNav.Location = new System.Drawing.Point(46, 24);
+            this.lblNav.Margin = new System.Windows.Forms.Padding(0);
+            this.lblNav.Name = "lblNav";
+            this.lblNav.Size = new System.Drawing.Size(118, 24);
+            this.lblNav.TabIndex = 8;
+            this.lblNav.Text = "Navigations";
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.lblFeatDetails);
@@ -69,6 +93,30 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(798, 307);
             this.panel3.TabIndex = 2;
+            // 
+            // lblFeatDetails
+            // 
+            this.lblFeatDetails.AccessibleName = "lblAbout";
+            this.lblFeatDetails.AutoSize = true;
+            this.lblFeatDetails.BackColor = System.Drawing.Color.Transparent;
+            this.lblFeatDetails.Font = new System.Drawing.Font("Sans Serif Collection", 9.749998F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFeatDetails.Location = new System.Drawing.Point(42, 55);
+            this.lblFeatDetails.Margin = new System.Windows.Forms.Padding(0);
+            this.lblFeatDetails.Name = "lblFeatDetails";
+            this.lblFeatDetails.Size = new System.Drawing.Size(129, 44);
+            this.lblFeatDetails.TabIndex = 7;
+            this.lblFeatDetails.Text = "          Description           ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(32, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 24);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Features";
             // 
             // panel2
             // 
@@ -79,6 +127,30 @@
             this.panel2.Size = new System.Drawing.Size(798, 171);
             this.panel2.TabIndex = 1;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(32, 16);
+            this.label9.Margin = new System.Windows.Forms.Padding(0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(88, 24);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "Purpose";
+            // 
+            // lblPurposeDetails
+            // 
+            this.lblPurposeDetails.AccessibleName = "lblAbout";
+            this.lblPurposeDetails.AutoSize = true;
+            this.lblPurposeDetails.BackColor = System.Drawing.Color.Transparent;
+            this.lblPurposeDetails.Font = new System.Drawing.Font("Sans Serif Collection", 9.749998F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPurposeDetails.Location = new System.Drawing.Point(42, 51);
+            this.lblPurposeDetails.Margin = new System.Windows.Forms.Padding(0);
+            this.lblPurposeDetails.Name = "lblPurposeDetails";
+            this.lblPurposeDetails.Size = new System.Drawing.Size(107, 44);
+            this.lblPurposeDetails.TabIndex = 4;
+            this.lblPurposeDetails.Text = "Description          ";
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.lblAboutDetails);
@@ -88,31 +160,6 @@
             this.panel1.Size = new System.Drawing.Size(798, 319);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Controls.Add(this.panel3);
-            this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Controls.Add(this.pnlSupport);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(32, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(852, 371);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // lblAbout
-            // 
-            this.lblAbout.AutoSize = true;
-            this.lblAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAbout.Location = new System.Drawing.Point(32, 18);
-            this.lblAbout.Margin = new System.Windows.Forms.Padding(0);
-            this.lblAbout.Name = "lblAbout";
-            this.lblAbout.Size = new System.Drawing.Size(65, 24);
-            this.lblAbout.TabIndex = 0;
-            this.lblAbout.Text = "About";
             // 
             // lblAboutDetails
             // 
@@ -127,77 +174,31 @@
             this.lblAboutDetails.TabIndex = 2;
             this.lblAboutDetails.Text = "Description";
             // 
-            // lblPurposeDetails
+            // lblAbout
             // 
-            this.lblPurposeDetails.AccessibleName = "lblAbout";
-            this.lblPurposeDetails.AutoSize = true;
-            this.lblPurposeDetails.BackColor = System.Drawing.Color.Transparent;
-            this.lblPurposeDetails.Font = new System.Drawing.Font("Sans Serif Collection", 9.749998F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPurposeDetails.Location = new System.Drawing.Point(42, 51);
-            this.lblPurposeDetails.Margin = new System.Windows.Forms.Padding(0);
-            this.lblPurposeDetails.Name = "lblPurposeDetails";
-            this.lblPurposeDetails.Size = new System.Drawing.Size(87, 44);
-            this.lblPurposeDetails.TabIndex = 4;
-            this.lblPurposeDetails.Text = "                                  ";
+            this.lblAbout.AutoSize = true;
+            this.lblAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAbout.Location = new System.Drawing.Point(32, 18);
+            this.lblAbout.Margin = new System.Windows.Forms.Padding(0);
+            this.lblAbout.Name = "lblAbout";
+            this.lblAbout.Size = new System.Drawing.Size(65, 24);
+            this.lblAbout.TabIndex = 0;
+            this.lblAbout.Text = "About";
             // 
-            // label9
+            // flowLayoutPanel1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(32, 16);
-            this.label9.Margin = new System.Windows.Forms.Padding(0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 24);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "Purpose";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(32, 18);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 24);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Features";
-            // 
-            // lblFeatDetails
-            // 
-            this.lblFeatDetails.AccessibleName = "lblAbout";
-            this.lblFeatDetails.AutoSize = true;
-            this.lblFeatDetails.BackColor = System.Drawing.Color.Transparent;
-            this.lblFeatDetails.Font = new System.Drawing.Font("Sans Serif Collection", 9.749998F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFeatDetails.Location = new System.Drawing.Point(42, 55);
-            this.lblFeatDetails.Margin = new System.Windows.Forms.Padding(0);
-            this.lblFeatDetails.Name = "lblFeatDetails";
-            this.lblFeatDetails.Size = new System.Drawing.Size(61, 44);
-            this.lblFeatDetails.TabIndex = 7;
-            this.lblFeatDetails.Text = "                     ";
-            // 
-            // lblNav
-            // 
-            this.lblNav.AutoSize = true;
-            this.lblNav.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNav.Location = new System.Drawing.Point(46, 24);
-            this.lblNav.Margin = new System.Windows.Forms.Padding(0);
-            this.lblNav.Name = "lblNav";
-            this.lblNav.Size = new System.Drawing.Size(118, 24);
-            this.lblNav.TabIndex = 8;
-            this.lblNav.Text = "Navigations";
-            // 
-            // lblNavDesc
-            // 
-            this.lblNavDesc.AccessibleName = "lblAbout";
-            this.lblNavDesc.AutoSize = true;
-            this.lblNavDesc.BackColor = System.Drawing.Color.Transparent;
-            this.lblNavDesc.Font = new System.Drawing.Font("Sans Serif Collection", 9.749998F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNavDesc.Location = new System.Drawing.Point(62, 67);
-            this.lblNavDesc.Margin = new System.Windows.Forms.Padding(0);
-            this.lblNavDesc.Name = "lblNavDesc";
-            this.lblNavDesc.Size = new System.Drawing.Size(155, 44);
-            this.lblNavDesc.TabIndex = 10;
-            this.lblNavDesc.Text = "School Grading System";
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.panel1);
+            this.flowLayoutPanel1.Controls.Add(this.panel2);
+            this.flowLayoutPanel1.Controls.Add(this.panel3);
+            this.flowLayoutPanel1.Controls.Add(this.panel4);
+            this.flowLayoutPanel1.Controls.Add(this.pnlSupport);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(32, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(852, 371);
+            this.flowLayoutPanel1.TabIndex = 0;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // pnlSupport
             // 
@@ -218,9 +219,9 @@
             this.lblConSupDetails.Location = new System.Drawing.Point(62, 67);
             this.lblConSupDetails.Margin = new System.Windows.Forms.Padding(0);
             this.lblConSupDetails.Name = "lblConSupDetails";
-            this.lblConSupDetails.Size = new System.Drawing.Size(155, 44);
+            this.lblConSupDetails.Size = new System.Drawing.Size(87, 44);
             this.lblConSupDetails.TabIndex = 10;
-            this.lblConSupDetails.Text = "School Grading System";
+            this.lblConSupDetails.Text = "Description";
             // 
             // lblContact
             // 

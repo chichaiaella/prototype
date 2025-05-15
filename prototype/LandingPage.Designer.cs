@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlNav = new System.Windows.Forms.Panel();
             this.btnHome = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblLogo = new System.Windows.Forms.Label();
             this.lnkSignout = new System.Windows.Forms.LinkLabel();
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.pnlNav.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel2
+            // pnlNav
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.btnHome);
-            this.panel2.Controls.Add(this.btnDashboard);
-            this.panel2.Controls.Add(this.btnAbout);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 40);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(884, 63);
-            this.panel2.TabIndex = 3;
+            this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.pnlNav.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlNav.Controls.Add(this.btnHome);
+            this.pnlNav.Controls.Add(this.btnDashboard);
+            this.pnlNav.Controls.Add(this.btnAbout);
+            this.pnlNav.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlNav.Location = new System.Drawing.Point(0, 40);
+            this.pnlNav.Name = "pnlNav";
+            this.pnlNav.Size = new System.Drawing.Size(884, 63);
+            this.pnlNav.TabIndex = 3;
             // 
             // btnHome
             // 
@@ -98,27 +98,27 @@
             this.btnAbout.UseVisualStyleBackColor = false;
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
-            // panel1
+            // pnlHeader
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.lnkSignout);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(884, 40);
-            this.panel1.TabIndex = 2;
+            this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnlHeader.Controls.Add(this.lblLogo);
+            this.pnlHeader.Controls.Add(this.lnkSignout);
+            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(884, 40);
+            this.pnlHeader.TabIndex = 2;
             // 
-            // label1
+            // lblLogo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 21);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "UNIVERSITY";
+            this.lblLogo.AutoSize = true;
+            this.lblLogo.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lblLogo.Location = new System.Drawing.Point(12, 9);
+            this.lblLogo.Name = "lblLogo";
+            this.lblLogo.Size = new System.Drawing.Size(128, 21);
+            this.lblLogo.TabIndex = 1;
+            this.lblLogo.Text = "UNIVERSITY";
             // 
             // lnkSignout
             // 
@@ -146,29 +146,29 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 481);
             this.Controls.Add(this.pnlMain);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlNav);
+            this.Controls.Add(this.pnlHeader);
             this.Name = "LandingPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LandingPage";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LandingPage_FormClosing);
             this.Load += new System.EventHandler(this.LandingPage_Load);
-            this.panel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlNav.ResumeLayout(false);
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlNav;
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Button btnAbout;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.LinkLabel lnkSignout;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblLogo;
     }
 }

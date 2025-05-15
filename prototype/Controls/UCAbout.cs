@@ -28,17 +28,17 @@ namespace prototype.UserControls
             string porpurpose = "This system is designed to help university staff easily manage student academic records. It allows input, update,\nand deletion of student details and final grades across different subjects.";
             lblPurposeDetails.Text = porpurpose;
 
-            string featureDetails = "📄 Input student information: First name, last name, middle initial, and program.\r\n📚 Enter final grades for core university subjects.\r\n🔄 Update or delete individual records.\r\n🗑 Delete all records at once with a single click.\r\n🖥 Clean and user-friendly interface for efficient data entry and management.";
+            string featureDetails = " Input student information: First name, last name, middle initial, and program.\r\n Enter final grades for core university subjects.\r\n Update or delete individual records.\r\n Delete all records at once with a single click.\r\n Clean and user-friendly interface for efficient data entry and management.";
             lblFeatDetails.Text = featureDetails;
 
 
-            string Nav = "1. Home: Displays the main dashboard.\n" +
-                "2. Student: Allows input and management of student information and Grades.\n" +
-                "3. About: Provides information about the system and its purpose.";
+            string Nav = "Home: Displays the main dashboard.\n" +
+                                "Student: Allows input and management of student information and Grades.\n" +
+                                "About: Provides information about the system and its purpose.";
             lblNavDesc.Text = Nav;
 
 
-            string contact = "For questions or technical support, contact:\r\n📧 Email: support@university.edu\r\n📞 Phone: (123) 456-7890";
+            string contact = "For questions or technical support, contact:\r\n Email: support@university.edu\r\n Phone: (123) 456-7890";
             lblConSupDetails.Text = contact;
         }
 
@@ -54,6 +54,11 @@ namespace prototype.UserControls
         }
 
         private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
